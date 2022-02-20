@@ -24,7 +24,7 @@ http://127.0.0.1:8000/api/logout <br>
 
 # cuadro:
 
-# create
+## create
 crea un nuevo cuadro con los siguientes endpoints datos a ingresar: <br>
 ejm: <br>
 {<br>
@@ -48,15 +48,15 @@ Get: http://127.0.0.1:8000/api/cuadro/getAll?page=2 // ejm <br>
 devuelve los datos del cuadro con igual $id <br>
 Get : ejm http://127.0.0.1:8000/api/cuadro/get/3 id=3 <br>
 
-# edit<br>
+## edit<br>
 permite editar los datos del un cuadro <br>
 Post : ejm http://127.0.0.1:8000/api/cuadro/edit/2 cuadro=2 <br>
 
-# delete <br>
+## delete <br>
 elimina un cuadro por $id <br>
 Delete : http://127.0.0.1:8000/api/cuadro/delete/12 id=12 <br>
 
-# search <br>
+## search <br>
 devuelve datos de cuadros por campos solicitados de acuerdo un campo y su dato <br>
 Get : http://127.0.0.1:8000/api/cuadro/selet?name=Lom&fields=year,updated_at <br>
 nombre del campo a buscar : name,<br>
