@@ -3,7 +3,7 @@ Challenge api-cuadros
 ## INSTRUCCIONES
 
 La aplicacion tiene las siguientes funciones a ejecutar <br>
-# user:<br>
+# user:<br><br>
 Registro :http://127.0.0.1:8000/api/register <br>
 datos para registro <br>
 {<br>
@@ -11,13 +11,13 @@ datos para registro <br>
 "email": "xxxxxx@gmail.com", <br>
 "password": "1234"<br>
 
-}<br>
+}<br><br>
 login : http://127.0.0.1:8000/api/login <br>
 retorna un token<br>
 {<br>
 "email": "xxxxx@gmail.com", <br>
 "password": "xxxx"<br>
-}<br>
+}<br><br>
 logout: cierra session del usuario <br>
 http://127.0.0.1:8000/api/logout <br>
 
