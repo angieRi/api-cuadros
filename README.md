@@ -3,7 +3,7 @@ Challenge api-cuadros
 ## INSTRUCCIONES
 
 La aplicacion tiene las siguientes funciones a ejecutar <br>
-#user:<br>
+# user:<br>
 Registro :http://127.0.0.1:8000/api/register <br>
 datos para registro <br>
 {<br>
@@ -22,9 +22,9 @@ logout: cierra session del usuario <br>
 http://127.0.0.1:8000/api/logout <br>
 
 
-#cuadro:
+# cuadro:
 
-##create
+# create
 crea un nuevo cuadro con los siguientes endpoints datos a ingresar: <br>
 ejm: <br>
 {<br>
@@ -38,25 +38,25 @@ ejm: <br>
 } <br>
 Post : http://127.0.0.1:8000/api/cuadro/create <br>
 
-##getAll <br><br>
+## getAll <br><br>
 permite obtener los datos de cuadros creado, retorna los primeros 10 cuadros <br>
 Get: http://127.0.0.1:8000/api/cuadro/getAll <br>
 Para pasar a la siguiente pagina <br>
 Get: http://127.0.0.1:8000/api/cuadro/getAll?page=2 // ejm <br>
 
-##get<br>
+## get<br>
 devuelve los datos del cuadro con igual $id <br>
 Get : ejm http://127.0.0.1:8000/api/cuadro/get/3 id=3 <br>
 
-#edit<br>
+# edit<br>
 permite editar los datos del un cuadro <br>
 Post : ejm http://127.0.0.1:8000/api/cuadro/edit/2 cuadro=2 <br>
 
-#delete <br>
+# delete <br>
 elimina un cuadro por $id <br>
 Delete : http://127.0.0.1:8000/api/cuadro/delete/12 id=12 <br>
 
-#search <br>
+# search <br>
 devuelve datos de cuadros por campos solicitados de acuerdo un campo y su dato <br>
 Get : http://127.0.0.1:8000/api/cuadro/selet?name=Lom&fields=year,updated_at <br>
 nombre del campo a buscar : name,<br>
