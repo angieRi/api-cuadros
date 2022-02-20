@@ -5,7 +5,7 @@ Challenge api-cuadros
 LA aplicacion tiene las siguientes funciones a ejecutar
 
 ##create: 
-crea un nuevo cuadro con los siguientes endpoints datos a ingresar:
+crea un nuevo cuadro con los siguientes endpoints datos a ingresar:<br>
 ejm:
 {
 "name": "Agus",
