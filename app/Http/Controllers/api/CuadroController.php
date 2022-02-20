@@ -71,7 +71,7 @@ class CuadroController extends Controller
     }
 
     /**
-     * Función que permite obtener los datos de cuadros creado, retorna los primeros cuadros
+     * Función que permite obtener los datos de cuadros creado, retorna los primeros 10 cuadros
      * @return \Illuminate\Http\JsonResponse retorna los cuadros paginados de 10
      */
     public function getAll()
@@ -90,7 +90,7 @@ class CuadroController extends Controller
 
 
     /**
-     * función que muestra los datos del cuadro con $id
+     * función que devuelve los datos del cuadro con $id
      * @param $id /del cuadro a obtener
      * @return \Illuminate\Http\JsonResponse
      */
@@ -141,6 +141,7 @@ class CuadroController extends Controller
     }
 
     /**
+     * Funcion que elimina un cuadro por $id
      * @param $id /de cuadro a borrar
      * @return \Illuminate\Http\JsonResponse
      */
